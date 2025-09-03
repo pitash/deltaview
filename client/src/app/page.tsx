@@ -1,9 +1,7 @@
-import React from 'react'
+// File: client/src/app/page.tsx
 
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
+import MainLayout from '@/components/layout/MainLayout'
+
+export default function Home() {
+  return <MainLayout />
 }
-
-export default Home
